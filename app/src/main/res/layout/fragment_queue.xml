@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".Queue">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:text="Queue"
+            android:layout_margin="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_margin="5sp"
+            android:text="A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). A good example of a queue is any queue of consumers for a resource where the consumer that came first is served first."/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ghonda5"
+            android:layout_margin="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:text="Basic Feature of Queue"
+            android:layout_margin="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_margin="5sp"
+            android:text="Like stack, queue is also an ordered list of elements of similar data types.\n
+Queue is a FIFO( First in First Out ) structure.\n
+Once a new element is inserted into the Queue, all the elements inserted before the new element in the queue must be removed, to remove the new element.
+" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:layout_margin="5sp"
+    android:textAlignment="center"
+    android:text="Applications of Queue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_margin="5sp"
+            android:text="Serving requests on a single shared resource, like a printer, CPU task scheduling etc.\n
+In real life scenario, Call Center phone systems uses Queues to hold people calling them in an order, until a service representative is free.\n
+Handling of interrupts in real-time systems. The interrupts are handled in the same order as they arrive i.e First come first served.\n
+" />
+
+
+    </LinearLayout>
+</ScrollView>

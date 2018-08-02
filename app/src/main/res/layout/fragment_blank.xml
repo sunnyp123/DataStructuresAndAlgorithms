@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+    android:orientation="vertical"
+android:layout_height="match_parent"
+tools:context=".BlankFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="10sp"
+        android:textAlignment="center"
+        android:text="Stack Data Structure"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:text="Stack is a linear data structure which follows a particular order in which the operations are performed. The order is LIFO(Last In First Out). "/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stacksdata"
+        android:src="@mipmap/ghonda4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_margin="5sp"
+        android:text="Basic features of Stack"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="5sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:text="1.) Stack is an ordered list of similar data type.\n
+2.) Stack is a LIFO(Last in First out) structure or we can say FILO(First in Last out).\n
+3.) push() function is used to insert new elements into the Stack and pop() function is used to remove an element from the stack. Both insertion and removal are allowed at only one end of Stack called Top.\n
+4.) Stack is said to be in Overflow state when it is completely full and is said to be in Underflow state if it is completely empty.\n
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Application of Stack"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="5sp"
+        android:textColor="@android:color/black"
+        android:layout_margin="5sp"
+        android:text="1.) Parsing\n
+2.)Expression Evaluation and Evaluation(Infix to Postfix ,Postfix Evaluation.)"/>
+</LinearLayout>
+</ScrollView>
